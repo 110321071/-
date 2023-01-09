@@ -11,11 +11,6 @@ module project1 (
   output E,
   input clear
 );
-
-
-
-
-
 reg [7:0]random; //random 隨機產生一個數字
 always@(posedge clk)
 begin
@@ -35,7 +30,7 @@ always @ (posedge s1,posedge s2,posedge s3) begin
 		  if(s1==1)  /當剪刀按下時候 將剪刀的狀態賦予user
 			user <=U0;
 		  else if(s2==1)begin  /當石頭按下時候 將石頭的狀態賦予user
-			user <=U1gˊ投
+			user <=U1;石頭
 		  end
 	     else if(s3==1)begin /當布按下時候 將布的狀態賦予user
          user <=U2;
@@ -64,4 +59,4 @@ always @(user)begin /當user改變時
           2: result =S0; // draw
           endcase
       end
-   endcase		
+   endcase	
