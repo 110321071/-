@@ -11,3 +11,5 @@ module project1 (
   output E,
   input clear
 );
+![image](https://user-images.githubusercontent.com/122256841/211263964-afd30526-3973-4fce-ada5-07fe40ac3b29.png)
+
