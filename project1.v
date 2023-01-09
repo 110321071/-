@@ -16,7 +16,7 @@ begin
 end
 
 parameter S0 = 2'b11, S1 = 2'b01, S2 = 2'b10;//平手,FPGA贏,玩家贏
-parameter U0 = 2'b00, U1 = 2'b01, U2 = 2'b10;// rock, paper, scissors
+parameter U0 = 2'b00, U1 = 2'b01, U2 = 2'b10;// 剪刀, 石頭, 布
 reg [1:0] user;
 always @ (posedge start) begin
    if (start) begin
