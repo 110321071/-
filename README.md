@@ -11,6 +11,11 @@ module project1 (
   output E,
   input clear
 );
+
+
+
+
+
 reg [7:0]random; //random 隨機產生一個數字
 always@(posedge clk)
 begin
